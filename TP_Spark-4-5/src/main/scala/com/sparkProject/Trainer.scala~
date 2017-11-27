@@ -52,7 +52,7 @@ object Trainer {
       .option("header", "true")        // Use first line of all files as header
       .option("inferSchema", "true") // Try to infer the data types of each column (ne sert pas à grand chose ici, car il met en string et retraiter au e))
       .option("nullValue", "false")  // replace strings "false" (that indicates missing data) by null values
-      .parquet("../prepared_trainingset")
+      .parquet("/Users/christophethibault/IdeaProjects/TP_ParisTech_2017_2018_starter/prepared_trainingset")
 
 
     //df.show()
