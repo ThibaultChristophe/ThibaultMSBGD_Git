@@ -1,0 +1,8 @@
+body {
+  background-color:rgb(50,90,128);
+  color:white;
+  font-family: fantasy;
+  font-size: 20;
+}
+p { margin: 0 30px; }
+#label-div { margin-top: -40px }
