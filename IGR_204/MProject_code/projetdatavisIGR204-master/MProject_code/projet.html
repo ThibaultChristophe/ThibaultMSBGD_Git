@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Baby Names in France</title>
+  <script src="http://d3js.org/d3.v3.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Projet IGR-204 Mastère BigData Telecom ParisTech</h1>
+     <h2>
+		 Bubble Baby Names
+	</h2>
+    <div id="years">
+      Click:
+      <button type="button" id="yelp2006">2006</button>
+      <button type="button" id="yelp2007">2007</button>
+      <button type="button" id="yelp2008">2008</button>
+      <button type="button" id="yelp2009">2009</button>
+      <button type="button" id="yelp2010">2010</button>
+      <button type="button" id="yelp2011">2011</button>
+      <button type="button" id="yelp2012">2012</button>
+      <button type="button" id="yelp2013">2013</button>
+      <button type="button" id="yelp2014">2014</button>
+    </div>
+    <h4 id="interaction">Three interaction effects have been added to this bubbule chart:
+      <br>
+      mouseover, mouseout and click.
+    </h4>
+
+    <p id="BubbleChart">
+      <script src="firstnames.js"></script>
+    </p>
+    <h4></h4>
+    <h2>
+Yelp Chart
+</h2>
+    <p id="menu">
+      Select:
+      <select>
+        <option>count2006</option>
+        <option>count2007</option>
+        <option>count2008</option>
+        <option>count2009</option>
+        <option>count2010</option>
+        <option>count2011</option>
+        <option>count2012</option>
+        <option>count2013</option>
+        <option>count2014</option>
+      </select>
+      <h4 id="select">
+        Select an option, the top ten cities with largest review numbers in the corresponding year will be showed in front of you :)
+      </h4>
+      <p id="chart">
+        <script src="chart.js"></script>
+      </p>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+h1{
+  color: rgb(253,141,60);
+}
+
+text {
+  font: 10px sans-serif;
+  font-weight: bold;
+}
+#data{
+  color: rgb(49,163,84);
+}
+#interaction{
+  color: rgb(49, 130, 189);
+}
+
+#years {font-size: 17px;
+  font-weight: bold;
+}
+
+#menu {font-size: 17px;
+  font-weight: bold;
+}
+
+#select{
+  color: #AC63CC;
+}
